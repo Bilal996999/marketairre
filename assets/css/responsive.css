@@ -1,0 +1,806 @@
+@media(max-width: 1630px){
+    .package-item{
+        height: 750px;
+    }
+    .bi-btn {
+        font-size: 18px;
+        padding: 16px 22px;
+    }
+    .theme-heading {
+        font-size: 50px;
+    }
+    .theme-para {
+        font-size: 19px;
+    }
+    .hightlight-item p {
+        font-size: 16px;
+    }
+    
+    h2.package-price {
+        font-size: 30px;
+    }
+    .package-heading {
+        font-size: 30px;
+    }
+    .package-item {
+        height: 780px;
+    }
+    .section-overlay.left {
+        opacity: .6;
+    }
+    .section-overlay.right {
+        opacity: .6;
+    }
+}
+
+@media(max-width: 1399px){
+    .package-item {
+        height: 720px;
+    }
+    .bottom-package {
+        padding: 25px 0px 0px;
+    }
+    .bi-btn {
+        font-size: 17px;
+    }
+    .package-item {
+        padding: 30px 22px 22px;
+    }
+    .package-heading {
+        font-size: 25px;
+    }
+    h2.package-price {
+        font-size: 28px;
+    }
+    p.package-content {
+        margin: 12px 0 24px;
+        font-size: 16px;
+    }
+    .package-include .theme-para b {
+        font-size: 19px;
+    }
+    .package-include p {
+        font-size: 16px;
+    }
+    .package-hightlight-wrapper {
+        flex-wrap: wrap;
+    }
+    .package-wrapper {
+        margin-top: 50px;
+    }
+    .bi-packages {
+        padding: 80px 0;
+    }
+    .footer-top img {
+        max-width: 300px;
+    }
+    .footer-contact-info img {
+        max-width: fit-content;
+    }
+    .footer-content-wrapper.quick-links {
+        padding-left: 45px;
+    }
+    .footer-content-wrapper h5 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .footer-content-wrapper p {
+        font-size: 16px;
+    }
+    .footer-middle {
+        padding: 90px 0;
+    }
+    .package-include p {
+        font-size: 14px;
+    }
+    .package-include p:before {
+        width: 8px;
+        height: 8px;
+        top: 4px;
+    }
+    .form-wrapper {
+        padding-left: 25px;
+        padding-top: 90px;
+        padding-bottom: 138px;
+    }
+    
+    .form-wrapper h2 {
+        font-size: 30px;
+        padding-left: 45px;
+    }
+    
+    .hero-form-wrapper {
+        padding-left: 0px;
+        padding-right: 70px;
+    }
+    
+    .form-wrapper form {
+        max-width: 300px;
+        margin-right: 50px;
+    }
+    
+    .hero-content-wrapper small {
+        font-size: 21px;
+    }
+    
+    .hero-content-wrapper h1 {
+        font-size: 44px;
+        line-height: 1.2em;
+    }
+    
+    .hero-content-wrapper p {
+        font-size: 21px;
+    }
+    
+    .hero-content-wrapper {
+        padding-right: 50px;
+        padding-left: 0;
+    }
+    
+    .hero-btn-wrapper .bi-btn {
+        padding: 14px 40px;
+    }
+    .section-overlay.left {
+        opacity: .6;
+    }
+    .section-overlay.right {
+        opacity: .6;
+    }
+    .risk-content h2 {
+        font-size: 70px;
+    }
+    .risk-content .bi-btn {
+        font-size: 18px;
+    }
+    .risk-content h3 {
+        font-size: 25px;
+    }
+    .risk-content p {
+        font-size: 18px;
+    }
+    .risk-content h4 {
+        font-size: 22px;
+    }
+    .porfolio-item {
+        max-width: 33%;
+    }
+}
+@media(max-width: 1199px){
+    .bi-btn {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+    .theme-heading {
+        font-size: 38px;
+    }
+    .theme-para {
+        font-size: 16px;
+    }
+    .package-wrapper {
+        row-gap: 25px;
+    }
+    .package-wrapper .package-item {
+        height: 790px !important;
+    }
+    .package-wrapper .col-xl-3.col-lg-12 .package-item{
+        height:400px !important;
+    }
+    .bottom-package {
+        padding: 20px 0px 0px;
+    }
+    .footer-contact-info img {
+        height: 36px;
+    }
+    .footer-top {
+        padding-bottom: 40px;
+    }
+    .bi-footer {
+        padding: 60px 0 40px;
+    }
+    .footer-middle {
+        padding: 70px 0;
+    }
+    .footer-content-wrapper p {
+        font-size: 15px;
+    }
+    .footer-content-wrapper ul li a {
+        font-size: 14px;
+    }
+    .newsletter-form input {
+        width: 100%;
+    }
+    .copyright-wrapper {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .package-item.custom-package {
+        height: fit-content !important;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 38px;
+        line-height: 1em;
+    }
+    .hero-content-wrapper small {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .hero-content-wrapper p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .hero-form-wrapper {
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+    .form-wrapper h2 {
+        font-size: 27px;
+    }
+    .form-wrapper form input {
+        height: 45px;
+    }
+    .form-wrapper form {
+        margin-right: 30px;
+        margin-top: 25px;
+    }
+    .form-wrapper:before {
+        height: 420px;
+        margin: auto;
+        right: -123px;
+        background-size: contain;
+        width: 230px;
+    }
+    .bi-business-owners .row {
+        margin-top: 20px;
+    }
+    .bi-business-owners {
+        padding: 80px 0;
+    }
+    .business-wrapper p {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+    .business-wrapper img {
+        width: 65px;
+        height: 65px;
+    }
+    .business-wrapper h3 {
+        font-size: 20px;
+    }
+    .business-wrapper {
+        height: 300px;
+    }
+    .expertise-content h4 {
+        font-size: 20px;
+    }
+    .expertise-content p {
+        font-size: 16px;
+    }
+    .expertise-content img {
+        height: 24px;
+        width: 24px;
+    }
+    .bi-expertise {
+        padding: 80px 0;
+    }
+    .bi-expertise .top-content {
+        margin-bottom: 45px;
+    }
+    .risk-content {
+        padding-bottom: 42px;
+    }
+    .risk-content h2 {
+        font-size: 62px;
+    }
+    .risk-content .bi-btn {
+        font-size: 17px;
+    }
+    .unlock-content .theme-heading {
+        font-size: 30px;
+    }
+    
+    form.unlock-form button {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 991px){
+    .bi-btn {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .theme-heading {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .theme-para {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .package-wrapper .package-item {
+        height: 640px !important;
+    }
+    .package-wrapper .col-xl-3.col-lg-12 .package-item {
+        height: 470px !important;
+    }
+    .footer-top {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer-contact-info img {
+        height: 42px;
+    }
+    .footer-content-wrapper.about-us {
+        margin-bottom: 30px;
+    }
+    .footer-content-wrapper.quick-links {
+        padding-left: 0;
+    }
+    .package-item.custom-package {
+        height: fit-content !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    .package-item.custom-package p.package-content.no-top-padding {
+        max-width: 100%;
+    }
+    .hero-content-wrapper small {
+        font-size: 17px;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 30px;
+    }
+    .hero-content-wrapper p {
+        font-size: 16px;
+    }
+    .hero-btn-wrapper {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hero-btn-wrapper .bi-btn {
+        font-size: 14px;
+    }
+    .form-wrapper h2 {
+        padding-left: 0;
+        font-size: 23px;
+    }
+    .form-wrapper form label {
+        font-size: 14px;
+    }
+    .hero-form-wrapper {
+        padding-right: 0;
+    }
+    .form-wrapper {
+        padding-left: 40px;
+    }
+    .form-wrapper form {
+        margin-right: 15px;
+    }
+    .hero-content-wrapper {
+        padding-right: 30px;
+    }
+    .bi-risk .row {
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+    }
+    .bi-risk .container {
+        max-width: 100%;
+    }
+    .bi-risk .row .col-12 {
+        max-width: 50%;
+    }
+    .risk-content h4 {
+        font-size: 19px;
+    }
+    .risk-content p {
+        font-size: 15px;
+    }
+    .risk-content h3 {
+        font-size: 21px;
+    }
+    .risk-content h2 {
+        font-size: 55px;
+    }
+    .risk-content .bi-btn {
+        font-size: 15px;
+        max-width: fit-content;
+        padding-inline: 30px;
+    }
+    .bi-risk {
+        padding: 40px 0 0;
+    }
+    .bi-step-up .business-wrapper p {
+        font-size: 14px;
+    }
+    .bi-step-up .business-wrapper h3 {
+        font-size: 18px;
+    }
+    .bi-step-up {
+        padding: 80px 0;
+    }
+    .unlock-content .theme-heading {
+        font-size: 24px;
+    }
+    form.unlock-form input {
+        height: 40px;
+        font-size: 14px;
+    }
+    form.unlock-form button {
+        height: 40px;
+        width: 230px;
+    }
+    .accordion-item .accordion-button {
+        font-size: 18px;
+    }
+    .accordion-body {
+        font-size: 14px;
+    }
+    .bi-faq {
+        padding: 80px 0;
+    }
+    .bi-header .bi-btn {
+        width: fit-content;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 768px){
+    .theme-heading {
+        font-size: 30px;
+    }
+    .theme-para {
+        font-size: 14px;
+    }
+    .package-wrapper {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start !important;
+    }
+    .package-wrapper .col-12 {
+        width: 70% !important;
+    }
+    .bi-packages .container {
+        max-width: 100%;
+    }
+    .mobile-package-wrapper .package-item {
+        height: 690px !important;
+        margin-inline: 15px;
+    }
+    .mobile-package-wrapper .package-item:hover {
+        translate: 0;
+        box-shadow: 0 0 0 transparent !important;
+    }
+    .footer-contact-info img {
+        height: 35px;
+    }
+    .presence-wrapper p{
+        font-size: 14px;
+    }
+    .mobile-package-name {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px 0 10px;
+    }
+    .bi-hero .row {
+        flex-direction: column-reverse;
+    }
+    .hero-form-wrapper {
+        padding-right: 0;
+    }
+    .form-wrapper form {
+        margin-right: auto;
+        max-width: 354px;
+    }
+    .form-wrapper {
+        padding-left: 100px;
+    }
+    .form-wrapper {
+        padding-left: 0px;
+        background-position: -57px 0px;
+    }
+    .form-wrapper:before {
+        right: -58px;
+    }
+    .hero-content-wrapper {
+        padding-right: 0;
+        margin-top: -60px;
+    }
+    .bi-hero {
+        padding-bottom: 80px;
+    }
+    .bi-business-owners .row {
+        flex-wrap: nowrap;
+        justify-content: flex-start !important;
+        overflow-x: auto;
+        padding-bottom: 20px;
+    }
+    
+    .bi-business-owners .container {
+        max-width: 100%;
+    }
+    
+    .bi-business-owners .row .col-12 {
+        max-width: 70%;
+    }
+    .bi-business-owners {
+        padding: 60px 0;
+    }
+    .bi-expertise .col-12:nth-child(2) {
+        display: none;
+    }
+    .expertise-content h4 {
+        font-size: 18px;
+    }
+    .expertise-content p {
+        font-size: 15px;
+    }
+    .expertise-content img {
+        height: 20px;
+        width: 20px;
+    }
+    .bi-expertise {
+        padding: 55px 0;
+    }
+    .risk-content h2 {
+        font-size: 40px;
+    }
+    .risk-content h3 {
+        font-size: 18px;
+    }
+    .risk-content h4 {
+        font-size: 16px;
+    }
+    .risk-content p {
+        font-size: 13px;
+    }
+    .risk-content {
+        padding-bottom: 35px;
+    }
+    .risk-content .bi-btn {
+        font-size: 13px;
+    }
+    .bi-risk img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 300px;
+    }
+    .porfolio-item {
+        max-width: 50%;
+    }
+    .bi-portfolio {
+        padding: 40px 0 80px;
+    }
+    .bi-unlock img {
+        height: 340px;
+    }
+    .unlock-content {
+        margin-top: 30px;
+    }
+    .bi-unlock {
+        text-align: center;
+    }
+}
+
+@media(max-width: 650px){
+    a.theme-para {
+        margin-bottom: 0;
+    }
+    .portfolio-wrapper{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .porfolio-item {
+        min-width: 65%;
+    }
+    .bi-unlock img{
+        height: 300px;
+    }
+}
+@media(max-width: 575px){
+    .alert-logo {
+        max-width: 50px;
+    }
+    .bi-alertbox {
+        max-width: 240px;
+    }
+    .alertbox-content {
+        font-size: 12px;
+    }
+    .alertbox-content p {
+        margin-bottom: 0;
+    }
+    .mobile-package-wrapper p.package-content {
+        font-size: 14px;
+    }
+    .mobile-package-wrapper .package-include p {
+        font-size: 12px;
+    }
+    .mobile-package-wrapper .package-item {
+        height: 630px !important;
+    }
+    .form-wrapper:before {
+        visibility: hidden;
+    }
+    .form-wrapper form {
+        max-width: 100%;
+        padding-inline: 30px;
+    }
+    .form-wrapper {
+        background-size: 135%;
+        background-position: 83% 0px;
+        padding-bottom: 30px;
+        padding-top: 106px;
+        border-radius: 20px;
+    }
+    .hero-content-wrapper {
+        margin-top: 20px;
+    }
+    .section-overlay.left {
+        opacity: .2;
+    }
+    .section-overlay.right {
+        opacity: .2;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 28px;
+    }
+    .hero-content-wrapper p {
+        font-size: 15px;
+    }
+    .theme-heading {
+        letter-spacing: -1px;
+    }
+    .expertise-content p {
+        font-size: 13px;
+    }
+    .bi-risk img {
+        right: -65px;
+    }
+    .bi-risk .row .col-12 {
+        max-width: 70%;
+    }
+    .bi-risk .row .col-12:nth-child(2) {
+        max-width: 30%;
+    }
+    .bi-step-up{
+        padding: 50px 0;
+    }
+    .bi-unlock img{
+        height: 260px;
+    }
+}
+@media(max-width: 440px){
+    .bi-btn {
+        font-size: 13px;
+    }
+    .theme-heading {
+        font-size: 25px;
+        letter-spacing: -2px;
+    }
+    .theme-para {
+        font-size: 13px;
+    }
+    .footer-contact-info {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .copyright-wrapper {
+        font-size: 12px;
+    }
+    .bi-platform .nav-tabs {
+        border-radius: 30px;
+    }
+    .package-heading {
+        font-size: 22px;
+    }
+    h2.package-price {
+        font-size: 24px;
+    }
+    p.package-content {
+        font-size: 14px;
+    }
+    .package-include p {
+        font-size: 13px;
+    }
+    .mobile-package-wrapper .package-item {
+        height: 460px !important;
+    }
+    .bi-header img {
+        max-width: 135px;
+    }
+    .tab-content h2 {
+        font-size: 24px;
+    }
+    .mobile-package-wrapper .package-item {
+        height: 640px !important;
+        padding-inline: 15px;
+        margin-inline: 5px;
+    }
+    .mobile-package-wrapper p.package-content {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .form-wrapper {
+        background-size: 180%;
+        padding-top: 80px;
+    }
+    .form-wrapper h2 {
+        font-size: 20px;
+    }
+    .form-wrapper form {
+        margin-top: 17px;
+    }
+    .form-wrapper form input {
+        height: 40px;
+        padding-inline: 20px;
+    }
+    .form-wrapper .bi-btn.black {
+        font-size: 13px;
+        border-radius: 40px;
+    }
+    .hero-content-wrapper h1 {
+        font-size: 26px;
+    }
+    .hero-content-wrapper small {
+        font-size: 16px;
+    }
+    .bi-business-owners .row .col-12 {
+        max-width: 80%;
+    }
+    .business-wrapper img {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 16px;
+    }
+    .business-wrapper p {
+        font-size: 14px;
+    }
+    .business-wrapper {
+        height: auto;
+    }
+    .bi-business-owners .row {
+        align-items: flex-start !important;
+    }
+    .business-wrapper h3 {
+        font-size: 18px;
+    }
+    .theme-heading {
+        letter-spacing: -1px;
+    }
+    .bi-risk img {
+        display: none;
+    }
+    .bi-risk .row{
+        flex-wrap: wrap;
+    }
+    .bi-risk .row .col-12 {
+        max-width: 100%;
+    }
+    .bi-risk .row .col-12:nth-child(2) {
+        max-width: 0%;
+    }
+    .risk-content h2 {
+        font-size: 32px;
+    }
+    .risk-content {
+        text-align: center;
+    }
+    .porfolio-item {
+        min-width: 80%;
+    }
+    .bi-btn {
+        font-size: 13px;
+    }
+    .bi-portfolio {
+        padding: 30px 0 50px;
+    }
+    form.unlock-form button {
+        font-size: 12px;
+    }
+    .bi-header .bi-btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,2320 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketairre</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel='shortcut icon' href='./assets/img/favicon.webp' type='image/x-icon'>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <style>
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+
+        html.lenis {
+            height: auto
+        }
+
+        .lenis.lenis-smooth {
+            scroll-behavior: auto
+        }
+
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain
+        }
+
+        .lenis.lenis-stopped {
+            overflow: hidden
+        }
+
+        .lenis.lenis-scrolling iframe {
+            pointer-events: none
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="bi-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <img src="./assets/img/logo.png" class="img-fluid" />
+                <a class="bi-btn" href="tel:+18155132697">+1 (815) 513-2697</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bi-hero">
+        <img src="./assets/img/overlay-left.png" class="img-fluid section-overlay left" />
+        <img src="./assets/img/overlay-right.png" class="img-fluid section-overlay right" />
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="hero-content-wrapper">
+                        <small>Struggling to manage your social media?</small>
+                        <h1>
+                            Transform Your
+                            <span class="gradient-heading">
+                                Social Media Presence
+                            </span>
+                            Today!
+                        </h1>
+                        <p class="theme-para">
+                            With professional <b>social media management</b> from our experienced and dedicated
+                            <b>social media
+                                managers</b>, we'll boost your engagement, grow your brand, and take the stress off your
+                            hands.
+                        </p>
+                        <div class="hero-btn-wrapper">
+                            <a href="#" class="bi-btn white">Chat With Us</a>
+                            <a href="#" class="bi-btn black">See Pricing</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="hero-form-wrapper">
+                        <div class="form-wrapper">
+                            <h2>
+                                GET STARTED NOW
+                            </h2>
+                            <form class="text-start">
+                                <label> Full Name
+                                    <input type="text" name="name" class="form-control" />
+                                </label>
+                                <label> Contact Number
+                                    <input type="tel" name="number" class="form-control" />
+                                </label>
+                                <label> Email
+                                    <input type="email" name="email" class="form-control" />
+                                </label>
+                                <label> Website URL
+                                    <input type="url" name="url" class="form-control" />
+                                </label>
+                                <button class="bi-btn black">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-business-owners">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading">
+                    Challenges
+                    <span class="gradient-heading">Business Owners <br>Face</span>
+                    with Social Media
+                </h2>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="business-wrapper">
+                        <img src="./assets/img/business-1.png" class="img-fluid" loading="lazy" />
+                        <h3>
+                            Lack of Time
+                        </h3>
+                        <p>
+                            Between running a business and
+                            managing daily operations, who
+                            has time to post consistently?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="business-wrapper">
+                        <img src="./assets/img/business-2.png" class="img-fluid" loading="lazy" />
+                        <h3>
+                            Content Creation Struggles
+                        </h3>
+                        <p>
+                            Creating engaging content that
+                            resonates with your audience is
+                            tough without a dedicated team.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="business-wrapper">
+                        <img src="./assets/img/business-3.png" class="img-fluid three" loading="lazy" />
+                        <h3>
+                            Keeping Up with Trends
+                        </h3>
+                        <p>
+                            Social media is ever-changing keeping
+                            up with algorithms, trends, and best
+                            practices is overwhelming.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="business-wrapper">
+                        <img src="./assets/img/business-4.png" class="img-fluid" loading="lazy" />
+                        <h3>
+                            Inconsistent Branding
+                        </h3>
+                        <p>
+                            Maintaining a consistent brand voice
+                            across multiple platforms can be
+                            challenging without a clear strategy.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="business-wrapper">
+                        <img src="./assets/img/business-5.png" class="img-fluid five" loading="lazy" />
+                        <h3>
+                            Limited Expertise
+                        </h3>
+                        <p>
+                            Navigating paid advertising, influencer
+                            collaborations, and content optimization
+                            requires specialized skills that many
+                            business owners don't have.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="business-wrapper">
+                        <img src="./assets/img/business-6.png" class="img-fluid" loading="lazy" />
+                        <h3>
+                            Customer Engagement
+                        </h3>
+                        <p>
+                            Responding to customer inquiries and
+                            comments in a timely manner is crucial,
+                            but it's often neglected due to other
+                            pressing business needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-expertise">
+        <img src="./assets/img/overlay-right.png" class="img-fluid section-overlay right" loading="lazy" />
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading">
+                    Our Expertise,<br>
+                    Your<span class="gradient-heading">
+                        Peace of Mind</span>
+                </h2>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="expertise-content">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="./assets/img/check-icon.png" class="img-fluid" loading="lazy" />
+                            <div>
+                                <h4>Full-Service Management:</h4>
+                                <p>
+                                    From content creation to scheduling and analytics, we handle it all so you can focus
+                                    on what you do best.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="./assets/img/check-icon.png" class="img-fluid" loading="lazy" />
+                            <div>
+                                <h4>Tailored Strategies:</h4>
+                                <p>
+                                    We craft a social media strategy that aligns with your business goals, ensuring
+                                    consistent growth and engagement.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="./assets/img/check-icon.png" class="img-fluid" loading="lazy" />
+                            <div>
+                                <h4>Real-Time Engagement:</h4>
+                                <p>
+                                    Our team actively engages with your audience, responding to comments and messages to
+                                    build strong relationships.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="./assets/img/check-icon.png" class="img-fluid" loading="lazy" />
+                            <div>
+                                <h4>Advanced Analytics:</h4>
+                                <p>
+                                    Track your progress with detailed reports and insights that show how your social
+                                    media efforts are paying off.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="./assets/img/check-icon.png" class="img-fluid" loading="lazy" />
+                            <div>
+                                <h4>Consistent Branding: </h4>
+                                <p>
+                                    We ensure that your brand voice is consistent across all platforms, reinforcing your
+                                    identity and building trust with your audience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <img src="./assets/img/check-icon.png" class="img-fluid" loading="lazy" />
+                            <div>
+                                <h4>Crisis Management:</h4>
+                                <p>
+                                    We're prepared to handle any social media crisis, quickly and professionally, to
+                                    protect your brand's reputation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <img src="./assets/img/expertise-img.png" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+            <a href="#" class="bi-btn mx-auto">Discover Our Success Stories</a>
+        </div>
+    </section>
+
+    <section class="bi-packages">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading">
+                    Transparent Pricing for<br>
+                    <span class="gradient-heading">Premium Services</span>
+                </h2>
+            </div>
+            <div class="row justify-content-start align-items-center package-wrapper d-md-flex d-none">
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="flip-left" data-aos-duration="600"
+                    data-aos-delay="900">
+                    <div class="package-item" data-tilt data-tilt-max="5">
+                        <div class="package-detail">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3 class="package-heading">
+                                    Basic Boost
+                                </h3>
+                                <h2 class="package-price">
+                                    <span class="gradient-heading">$99</span>
+                                </h2>
+                            </div>
+                            <p class="package-content">
+                                Perfect for small businesses or startups
+                                looking to establish their social media
+                                presence.
+                            </p>
+                            <div class="package-include">
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+                                <p><b>No. of Posts:</b> 10</p>
+                                <p><b>Platforms Included:</b> FB,
+                                    LinkedIn</p>
+                                <p><b>Per Additional Platform:</b>
+                                    $20/month</p>
+                                <p><b>No. of Post Revisions:</b> 3</p>
+                                <p><b>Custom Posts:</b> (Holidays, Seasonal,
+                                    etc)</p>
+                                <p><b>Post Scheduling</b></p>
+                                <p><b>Monthly Reporting:</b> Standard</p>
+                                <p><b>Customer Support</b></p>
+                                <h5 class="theme-para mb-1 bonus"><b>One
+                                        Time Bonuses:</b></h5>
+                                <p class="line-height">Social Profile DP &
+                                    Cover Design <b>($100 Value)</b></p>
+                            </div>
+                            <div class="bottom-package">
+                                <button" class="bi-btn full-width" data-bs-toggle="modal"
+                                    data-bs-target="#pack-199-Modal">Sign
+                                    Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="flip-left" data-aos-duration="600"
+                    data-aos-delay="1000">
+                    <div class="package-item" data-tilt data-tilt-max="5">
+                        <div class="package-detail">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3 class="package-heading">
+                                    Growth Accelerator
+                                </h3>
+                                <h2 class="package-price">
+                                    <span class="gradient-heading">$199</span>
+                                </h2>
+                            </div>
+                            <p class="package-content">
+                                Ideal for businesses aiming to build and
+                                scale their social media following.
+                            </p>
+                            <div class="package-include">
+                                <div class="package-include">
+                                    <h5 class="theme-para"><b>Includes:</b></h5>
+                                    <p><b>No. of Posts:</b> 20</p>
+                                    <p><b>Platforms Included:</b> FB,
+                                        Instagram, LinkedIn</p>
+                                    <p><b>Per Additional Platform:</b>
+                                        $20/month</p>
+                                    <p><b>No. of Post Revisions:</b> 5 </p>
+                                    <p><b>Custom Posts:</b> (Holidays,
+                                        Seasonal, etc)</p>
+                                    <p><b>Post Scheduling</b></p>
+                                    <p><b>Monthly Reporting:</b>
+                                        Standard</p>
+                                    <p><b>Customer Support</b></p>
+                                    <h5 class="theme-para mb-1 bonus"><b>One
+                                            Time Bonuses:</b></h5>
+                                    <p class="line-height">Social Profile DP
+                                        & Cover Design <b>($100
+                                            Value)</b></p>
+                                    <p class="line-height">Promotional
+                                        Brochure <b>($200 Value)</b></p>
+                                    <p class="line-height">Upto $20 Ad Spend
+                                        Included<b> (On Meta)</b></p>
+                                </div>
+                            </div>
+                            <div class="bottom-package">
+                                <button class="bi-btn full-width" data-bs-toggle="modal"
+                                    data-bs-target="#pack-299-Modal">Sign
+                                    Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12" data-aos="flip-left" data-aos-duration="600"
+                    data-aos-delay="1100">
+                    <div class="package-item" data-tilt data-tilt-max="5">
+                        <div class="package-detail">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3 class="package-heading">
+                                    Premium Influence
+                                </h3>
+                                <h2 class="package-price">
+                                    <span class="gradient-heading">$299</span>
+                                </h2>
+                            </div>
+                            <p class="package-content no-top-padding">
+                                Tailored for established businesses seeking
+                                a comprehensive social media strategy with
+                                advanced features.
+                            </p>
+                            <div class="package-include">
+                                <div class="package-include">
+                                    <h5 class="theme-para"><b>Includes:</b></h5>
+                                    <p><b>No. of Posts:</b> 30 </p>
+                                    <p><b>Platforms Included:</b> FB,
+                                        Instagram, LinkedIn, X (Twitter)
+                                    </p>
+                                    <p><b>Per Additional Platform:</b>
+                                        $20/month</p>
+                                    <p><b>No. of Post Revisions:</b> 10</p>
+                                    <p><b>Custom Posts:</b> (Holidays,
+                                        Seasonal, etc)</p>
+                                    <p><b>Post Scheduling</b></p>
+                                    <p><b>Monthly Reporting:</b> Advance
+                                    </p>
+                                    <p><b>Customer Support</b></p>
+                                    <h5 class="theme-para mb-1 bonus"><b>One
+                                            Time Bonuses:</b></h5>
+                                    <p class="line-height">Social Profile DP
+                                        & Cover Design <b>($100
+                                            Value)</b></p>
+                                    <p class="line-height">Promotional
+                                        Brochure <b>($200 Value)</b></p>
+                                    <p class="line-height">1x
+                                        Conversion-Focused Blog <b>(1000
+                                            Words)</b> <b>($500
+                                            Value)</b></p>
+                                    <p class="line-height">Upto $50 Ad Spend
+                                        Included<b> (On Meta)</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bottom-package">
+                                <button class="bi-btn full-width" data-bs-toggle="modal"
+                                    data-bs-target="#pack-399-Modal">Sign
+                                    Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="package-wrapper mobile-package-wrapper d-md-none d-sm-block">
+
+                <div class="package-item">
+                    <div class="package-detail">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="package-heading">
+                                Basic Boost
+                            </h3>
+                            <h2 class="package-price">
+                                <span class="gradient-heading">$99</span>
+                            </h2>
+                        </div>
+                        <p class="package-content">
+                            Perfect for small businesses or startups looking
+                            to establish their social media presence.
+                        </p>
+                        <div class="package-include">
+                            <h5 class="theme-para"><b>Includes:</b></h5>
+                            <p><b>No. of Posts:</b> 10</p>
+                            <p><b>Platforms Included:</b> FB, LinkedIn</p>
+                            <p><b>Per Additional Platform:</b> $20/month</p>
+                            <p><b>No. of Post Revisions:</b> 3</p>
+                            <p><b>Custom Posts:</b> (Holidays, Seasonal,
+                                etc)</p>
+                            <p><b>Post Scheduling</b></p>
+                            <p><b>Monthly Reporting:</b> Standard</p>
+                            <p><b>Customer Support</b></p>
+                            <h5 class="theme-para mb-1 bonus"><b>One Time
+                                    Bonuses:</b></h5>
+                            <p class="line-height">Social Profile DP & Cover
+                                Design <b>($100 Value)</b></p>
+                        </div>
+                        <div class="bottom-package">
+                            <button" class="bi-btn full-width" data-bs-toggle="modal" data-bs-target="#pack-199-Modal">
+                                Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package-item">
+
+                    <div class="package-detail">
+
+                        <!-- <p class="theme-para">
+
+                                <span class="gradient-heading">Package 2</span>
+
+                            </p> -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h3 class="package-heading">
+
+                                Growth Accelerator
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="gradient-heading">$199</span>
+
+                            </h2>
+
+                        </div>
+
+                        <p class="package-content">
+
+                            Ideal for businesses aiming to build and scale
+                            their social media following.
+
+                        </p>
+
+                        <div class="package-include">
+
+                            <div class="package-include">
+
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                <p><b>No. of Posts:</b> 20</p>
+
+                                <p><b>Platforms Included:</b> FB, Instagram,
+                                    LinkedIn</p>
+
+                                <p><b>Per Additional Platform:</b>
+                                    $20/month</p>
+
+                                <p><b>No. of Post Revisions:</b> 5 </p>
+
+                                <p><b>Custom Posts:</b> (Holidays, Seasonal,
+                                    etc)</p>
+
+                                <p><b>Post Scheduling</b></p>
+
+                                <p><b>Monthly Reporting:</b> Standard</p>
+
+                                <p><b>Customer Support</b></p>
+
+                                <h5 class="theme-para mb-1 bonus"><b>One
+                                        Time Bonuses:</b></h5>
+
+                                <p class="line-height">Social Profile DP &
+                                    Cover Design <b>($100 Value)</b></p>
+
+                                <p class="line-height">Promotional Brochure
+                                    <b>($200 Value)</b>
+                                </p>
+
+                                <p class="line-height">Upto $20 Ad Spend
+                                    Included<b> (On Meta)</b></p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="bottom-package">
+
+                            <button class="bi-btn full-width" data-bs-toggle="modal"
+                                data-bs-target="#pack-299-Modal">Sign
+                                Up</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="package-item">
+
+                    <div class="package-detail">
+
+                        <!-- <p class="theme-para">
+
+                                <span class="gradient-heading">Package 3</span>
+
+                            </p> -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h3 class="package-heading">
+
+                                Premium Influence
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="gradient-heading">$299</span>
+
+                            </h2>
+
+                        </div>
+
+                        <p class="package-content no-top-padding">
+
+                            Tailored for established businesses seeking a
+                            comprehensive social media strategy with
+                            advanced features.
+
+                        </p>
+
+                        <div class="package-include">
+
+                            <div class="package-include">
+
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                <p><b>No. of Posts:</b> 30 </p>
+
+                                <p><b>Platforms Included:</b> FB, Instagram,
+                                    LinkedIn, X (Twitter) </p>
+
+                                <p><b>Per Additional Platform:</b>
+                                    $20/month</p>
+
+                                <p><b>No. of Post Revisions:</b> 10</p>
+
+                                <p><b>Custom Posts:</b> (Holidays, Seasonal,
+                                    etc)</p>
+
+                                <p><b>Post Scheduling</b></p>
+
+                                <p><b>Monthly Reporting:</b> Advance </p>
+
+                                <p><b>Customer Support</b></p>
+
+                                <h5 class="theme-para mb-1 bonus"><b>One
+                                        Time Bonuses:</b></h5>
+
+                                <p class="line-height">Social Profile DP &
+                                    Cover Design <b>($100 Value)</b></p>
+
+                                <p class="line-height">Promotional Brochure
+                                    <b>($200 Value)</b>
+                                </p>
+
+                                <p class="line-height">1x Conversion-Focused
+                                    Blog <b>(1000 Words)</b> <b>($500
+                                        Value)</b></p>
+
+                                <p class="line-height">Upto $50 Ad Spend
+                                    Included<b> (On Meta)</b>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="bottom-package">
+
+                            <button class="bi-btn full-width" data-bs-toggle="modal"
+                                data-bs-target="#pack-399-Modal">Sign
+                                Up</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="package-item custom-package d-md-none d-sm-block">
+
+                <div class="package-detail">
+
+                    <!-- <p class="theme-para">
+
+                        <span class="gradient-heading">Custom Package</span>
+
+                    </p> -->
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <h3 class="package-heading">
+
+                            Create Your Own Package
+
+                        </h3>
+
+                        <!-- <h2 class="package-price">
+
+                            <span class="gradient-heading">$499</span>
+
+                        </h2> -->
+
+                    </div>
+
+                    <p class="package-content no-top-padding">
+
+                        Perfect for businesses with unique goals, special
+                        campaign needs, or custom platform
+
+                        combinations. Let's build a plan that works just for
+                        you, flexible, strategic, and
+
+                        focused on achieving real results. Your vision, our
+                        expertise. Let's make it happen.
+
+                    </p>
+
+                    <div class="bottom-package">
+
+                        <button href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="bi-btn">Get a
+                            Custom Quote</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bi-risk">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="risk-content">
+                        <h4>
+                            Already working with another agency?
+                        </h4>
+                        <p>
+                            We'll offer you upto $50/$100 Ad credit when you switch to us.
+                        </p>
+                        <h3>
+                            Experience the difference
+                        </h3>
+                        <h2>
+                            RISK-FREE!
+                        </h2>
+                        <a href="#" class="bi-btn">Claim Your Credit</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="./assets/img/risk-free.png" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-step-up">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading">
+                    Why Settle for Less?<br>
+                    <span class="gradient-heading">Step-Up</span>
+                    Your Social Media Game with Us
+                </h2>
+                <p class="theme-para">
+                    If you're looking for a partner who truly understands your business and the ever-evolving world of
+                    social media, you've come to the right place!
+                </p>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="business-wrapper step-up">
+                        <img src="./assets/img/risk-1.png" class="img-fluid" loading="lazy">
+                        <h3>
+                            Risk-Free Trial
+                        </h3>
+                        <p>
+                            Experience our services with a no obligation,
+                            risk-free trial period to see how we can
+                            transform your social media presence.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="business-wrapper step-up">
+                        <img src="./assets/img/risk-2.png" class="img-fluid" loading="lazy">
+                        <h3>
+                            Proven Results
+                        </h3>
+                        <p>
+                            Our clients have seen a significant
+                            increase in engagement and brand visibility
+                            results that speak for themselves.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="business-wrapper step-up">
+                        <img src="./assets/img/risk-3.png" class="img-fluid" loading="lazy">
+                        <h3>
+                            Dedicated Support
+                        </h3>
+                        <p>
+                            We're with you every step of the way, providing 
+                            personalized support and strategies tailored
+                            to your unique needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="bi-btn white border border-1 border-black"> Start Your Free Trial </a>
+        </div>
+    </section>
+
+    <section class="bi-portfolio">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading">
+                    Build <span class="gradient-heading">Social Media Presence</span>
+                    <p class="theme-para">Establish an Impressive Social Media Presence in Just One Month, Just Like Our Current Clients!</p>
+                </h2>
+            </div>
+            <div class="portfolio-wrapper">
+                <div class="porfolio-item">
+                    <img src="./assets/img/1.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="porfolio-item">
+                    <img src="./assets/img/2.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="porfolio-item">
+                    <img src="./assets/img/3.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="porfolio-item">
+                    <img src="./assets/img/4.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="porfolio-item">
+                    <img src="./assets/img/5.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="porfolio-item">
+                    <img src="./assets/img/6.png" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+            <div class="hero-btn-wrapper">
+                <a href="#" class="bi-btn white">Start Your Free Trial</a>
+                <a href="#" class="bi-btn border-0">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-cta">
+        <div class="container text-center">
+            <h2 class="theme-heading">
+                Got Questions For Us?
+            </h2>
+            <p class="theme-para">
+                Get in touch with us right away and clear any queries you might have.
+            </p>
+            <a href="#" class="bi-btn white border-0">View More</a>
+        </div>
+    </section>
+
+    <section class="bi-unlock">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <img src="./assets/img/unlock-img.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="unlock-content">
+                        <p class="theme-para">
+                            Unlock the secrets to a successful
+                            social media presence with our free
+                            downloadable guide.
+                        </p>
+                        <h2 class="theme-heading">
+                            Just enter your email below
+                        </h2>
+                        <form class="unlock-form">
+                            <div class="d-flex">
+                                <input type="email" placeholder="Email" name="email" />
+                                <button class="bi-btn">DOWNLOAD NOW</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-faq">
+        <img src="./assets/img/overlay-left.png" class="img-fluid section-overlay left" />
+        <img src="./assets/img/overlay-right.png" class="img-fluid section-overlay right" />
+        <div class="container">
+            <h2 class="theme-heading text-center">
+                Frequently Asked Questions
+            </h2>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How do you create a content strategy for my business?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We manage all major social media platforms, including Facebook, Instagram, Twitter, LinkedIn, TikTok, and Pinterest. Our services are tailored to fit the unique needs and goals of each platform.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How do you create a content strategy for my business?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We manage all major social media platforms, including Facebook, Instagram, Twitter, LinkedIn, TikTok, and Pinterest. Our services are tailored to fit the unique needs and goals of each platform.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How do you create a content strategy for my business?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We manage all major social media platforms, including Facebook, Instagram, Twitter, LinkedIn, TikTok, and Pinterest. Our services are tailored to fit the unique needs and goals of each platform.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <footer class="bi-footer">
+        <div class="container">
+
+            <div class="footer-top" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+
+                <img src="./assets/img/footer-logo.webp" class="img-fluid" loading="lazy" />
+
+                <div class="footer-contact-info">
+
+                    <img src="./assets/img/phone-email.webp" class="img-fluid" loading="lazy" />
+
+                    <img src="./assets/img/location.webp" class="img-fluid" loading="lazy" />
+
+                </div>
+
+            </div>
+
+            <div class="footer-middle">
+
+                <div class="row justify-content-center align-items-start">
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+
+                        <div class="footer-content-wrapper about-us" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-delay="500">
+
+                            <h5>
+
+                                About Us
+
+                            </h5>
+
+                            <p>
+
+                                Marketairre is a digital marketing agency
+                                that specializes in bringing out
+
+                                the best in brands through a comprehensive
+                                range of services. From social
+
+                                media marketing to logo design, we do it
+                                all, and we do it best.
+
+                            </p>
+
+                            <div class="social-wrapper">
+
+                                <h5>
+
+                                    Follow Us:
+
+                                </h5>
+
+                                <div class="d-flex justify-content-start align-items-center gap-3">
+
+                                    <a target="_blank" href="https://www.facebook.com/Marketairre#"><img
+                                            src="./assets/img/social-1.webp" class="img-fluid" loading="lazy" /></a>
+
+                                    <a target="_blank" href="https://x.com/marketairre"><img
+                                            src="./assets/img/social-2.webp" class="img-fluid" loading="lazy" /></a>
+
+                                    <a target="_blank" href="https://www.linkedin.com/company/marketairre"><img
+                                            src="./assets/img/social-3.webp" class="img-fluid" loading="lazy" /></a>
+
+                                    <a target="_blank" href="https://www.instagram.com/marketairre/"><img
+                                            src="./assets/img/social-4.webp" class="img-fluid" loading="lazy" /></a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+
+                        <div class="footer-content-wrapper quick-links" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-delay="600">
+
+                            <h5>
+
+                                Quick Links
+
+                            </h5>
+
+                            <ul>
+
+                                <li><a target="_blank" href="https://marketairre.com/">Home</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/about-us/">About
+                                        Us</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/blog/">Blog</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/our-case-studies/">Case
+                                        Studies</a>
+                                </li>
+
+                                <li><a target="_blank" href="https://marketairre.com/contact-us/">Contact
+                                        Us</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/privacy-policy/">Privacy
+                                        Policy</a>
+                                </li>
+
+                                <li><a target="_blank" href="https://marketairre.com/terms-and-conditions/">Terms
+                                        and
+                                        Conditions</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+
+                        <div class="footer-content-wrapper services" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-delay="700">
+
+                            <h5>
+
+                                Services
+
+                            </h5>
+
+                            <ul>
+
+                                <li><a target="_blank" href="https://marketairre.com/ppc-management-services/">PPC
+                                        Services</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/seo-services/">SEO
+                                        Services</a>
+                                </li>
+
+                                <li><a target="_blank"
+                                        href="https://marketairre.com/social-media-marketing-services/">SMM
+                                        Services</a>
+                                </li>
+
+                                <li><a target="_blank" href="https://marketairre.com/email-marketing-services/">Email
+                                        Marketing Services</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/branding-services/">Branding
+                                        Services</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/website-development/">Website
+                                        Development</a></li>
+
+                                <li><a target="_blank" href="https://marketairre.com/app-development-services/">App
+                                        Development Services</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+
+                        <div class="footer-content-wrapper newsletter" data-aos="fade-up" data-aos-duration="500"
+                            data-aos-delay="800">
+
+                            <h5>
+
+                                Our Newsletter
+
+                            </h5>
+
+                            <ul>
+
+                                <li><a>Only important stuff—no spam</a></li>
+
+                            </ul>
+
+                            <form class="newsletter-form">
+
+                                <input type="email" placeholder="Your Email" />
+
+                                <button>
+
+                                    <img src="./assets/img/newsletter-btn.webp" class="img-fluid" loading="lazy" />
+
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom" data-aos-anchor-placement="top-bottom" data-aos="zoom-in" data-aos-duration="500"
+                data-aos-delay="1100">
+
+                <div class="copyright-wrapper">
+
+                    © Copyright 2025 — Marketairre All Rights Reserved.
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+   
+
+    <!-- Modal -->
+
+    <div class="modal fade normal" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="contact-form" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="700">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <form class="bi-form" id="bi-Form" method="POST">
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage"
+                                style="display:none; font-size: 18px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $199-->
+
+    <div class="modal fade" id="pack-199-Modal" tabindex="-1" aria-labelledby="pack-199-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Basic Boost
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$99</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-199" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Basic Boost" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-199"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-199"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item" data-tilt data-tilt-max="5">
+
+                        <div class="package-detail">
+
+                            <!-- <p class="theme-para">
+
+                        <span class="gradient-heading">Package 1</span>
+
+                    </p> -->
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Basic Boost
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$99</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content">
+
+                                Perfect for small businesses or startups
+                                looking to establish their social media
+                                presence.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                <p><b>No. of Posts:</b> 10</p>
+
+                                <p><b>Platforms Included:</b> FB,
+                                    LinkedIn</p>
+
+                                <p><b>Per Additional Platform:</b>
+                                    $20/month</p>
+
+                                <p><b>No. of Post Revisions:</b> 3</p>
+
+                                <p><b>Custom Posts:</b> (Holidays, Seasonal,
+                                    etc)</p>
+
+                                <p><b>Post Scheduling</b></p>
+
+                                <p><b>Monthly Reporting:</b> Standard</p>
+
+                                <p><b>Customer Support</b></p>
+
+                                <h5 class="theme-para mb-1 bonus"><b>One
+                                        Time Bonuses:</b></h5>
+
+                                <p class="line-height">Social Profile DP &
+                                    Cover Design <b>($100 Value)</b></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $299-->
+
+    <div class="modal fade" id="pack-299-Modal" tabindex="-1" aria-labelledby="pack-299-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Growth Accelerator
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$199</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-299" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Growth Accelerator" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-299"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-299"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item" data-tilt data-tilt-max="5">
+
+                        <div class="package-detail">
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Growth Accelerator
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$199</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content">
+
+                                Ideal for businesses aiming to build and
+                                scale their social media following.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <div class="package-include">
+
+                                    <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                    <p><b>No. of Posts:</b> 20</p>
+
+                                    <p><b>Platforms Included:</b> FB,
+                                        Instagram, LinkedIn</p>
+
+                                    <p><b>Per Additional Platform:</b>
+                                        $20/month</p>
+
+                                    <p><b>No. of Post Revisions:</b> 5 </p>
+
+                                    <p><b>Custom Posts:</b> (Holidays,
+                                        Seasonal, etc)</p>
+
+                                    <p><b>Post Scheduling</b></p>
+
+                                    <p><b>Monthly Reporting:</b>
+                                        Standard</p>
+
+                                    <p><b>Customer Support</b></p>
+
+                                    <h5 class="theme-para mb-1 bonus"><b>One
+                                            Time Bonuses:</b></h5>
+
+                                    <p class="line-height">Social Profile DP
+                                        & Cover Design <b>($100
+                                            Value)</b></p>
+
+                                    <p class="line-height">Promotional
+                                        Brochure <b>($200 Value)</b></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $399-->
+
+    <div class="modal fade" id="pack-399-Modal" tabindex="-1" aria-labelledby="pack-399-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Premium Influence
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$299</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-399" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Premium Influence" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-399"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-399"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item" data-tilt data-tilt-max="5">
+
+                        <div class="package-detail">
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Premium Influence
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$299</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content no-top-padding">
+
+                                Tailored for established businesses seeking
+                                a comprehensive social media strategy with
+                                advanced features.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <div class="package-include">
+
+                                    <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                    <p><b>No. of Posts:</b> 30 </p>
+
+                                    <p><b>Platforms Included:</b> FB,
+                                        Instagram, LinkedIn, X (Twitter)
+                                    </p>
+
+                                    <p><b>Per Additional Platform:</b>
+                                        $20/month</p>
+
+                                    <p><b>No. of Post Revisions:</b> 10</p>
+
+                                    <p><b>Custom Posts:</b> (Holidays,
+                                        Seasonal, etc)</p>
+
+                                    <p><b>Post Scheduling</b></p>
+
+                                    <p><b>Monthly Reporting:</b> Advance
+                                    </p>
+
+                                    <p><b>Customer Support</b></p>
+
+                                    <h5 class="theme-para mb-1 bonus"><b>One
+                                            Time Bonuses:</b></h5>
+
+                                    <p class="line-height">Social Profile DP
+                                        & Cover Design <b>($100
+                                            Value)</b></p>
+
+                                    <p class="line-height">Promotional
+                                        Brochure <b>($200 Value)</b></p>
+
+                                    <p class="line-height">1x
+                                        Conversion-Focused Blog <b>(1000
+                                            Words)</b> <b>($500
+                                            Value)</b></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal $499-->
+
+    <div class="modal fade" id="pack-499-Modal" tabindex="-1" aria-labelledby="pack-499-ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+
+                </div>
+
+                <div class="modal-body d-flex">
+
+                    <div class="contact-form">
+
+                        <h2 class="theme-heading">
+
+                            Connect with Team <b>Marketairre</b>
+
+                        </h2>
+
+                        <div class="mobile-package-name">
+
+                            <h3 class="package-heading text-white">
+
+                                Ultimate Brand Dominance
+
+                            </h3>
+
+                            <h2 class="package-price">
+
+                                <span class="text-white">$499</span>
+
+                            </h2>
+
+                        </div>
+
+                        <form class="bi-form" id="bi-Form-499" method="POST">
+                            <input type="hidden" name="PackageTitle" value="Ultimate Brand Dominance" />
+                            <input type="text" placeholder="Your Name" name="Name" required />
+                            <input type="email" placeholder="Email Address" name="Email" required />
+                            <input type="tel" placeholder="Phone No" name="PhoneNumber" required />
+                            <textarea placeholder="Type Your Message Here..." rows="3" name="TextArea"></textarea>
+                            <button class="bi-btn" type="submit" id="bi-Btn-499"><b>Submit</b></button>
+                            <div id="bi-thankYouMessage-499"
+                                style="display:none; font-size: 14px; line-height: 1.3em; font-weight: 500; color: #fff; text-align: center; padding-top: 10px; font-family: 'Inter';">
+                                Sending...</div>
+                        </form>
+
+                    </div>
+
+                    <div class="package-item">
+
+                        <div class="package-detail">
+
+                            <p class="theme-para">
+
+                                <span class="gradient-heading">Package
+                                    4</span>
+
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <h3 class="package-heading">
+
+                                    Ultimate Brand Dominance
+
+                                </h3>
+
+                                <h2 class="package-price">
+
+                                    <span class="gradient-heading">$499</span>
+
+                                </h2>
+
+                            </div>
+
+                            <p class="package-content no-top-padding">
+
+                                For brands that need a 360-degree social
+                                media solution with maximum exposure and
+                                engagement.
+
+                            </p>
+
+                            <div class="package-include">
+
+                                <h5 class="theme-para"><b>Includes:</b></h5>
+
+                                <p>30+ posts per week, full strategy design,
+                                    paid ads management, influencer
+                                    partnerships, comprehensive analytics,
+                                    and 24/7 support.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="back-to-top" id="back-to-top">
+        <a href="#home" data-scroll-to><img src="./assets/img/left-arrow.webp" class="img-fluid" loading="lazy" /></a>
+     </div>
+
+    <div class="bi-alertbox">
+
+        <div class="d-flex justify-content-start align-items-start">
+
+            <img src="./assets/img/alert-log.png" class="img-fluid alert-logo" loading="lazy" />
+
+            <div class="alertbox-content">
+
+                <p><b id="alert-name">Lily P.</b> signed up for<br>
+
+                    <b id="alert-package">Ultimate Brand Dominance</b>
+
+                </p>
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <small id="alert-hour">2 hours ago</small>
+
+                    <img src="./assets/img/alertbox-check.png" class="img-fluid" loading="lazy" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+    <script>
+        (function () {
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+
+        function removeDataScrollIfNecessary() {
+
+            var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var thresholdWidth = 991; // Adjust this threshold as needed
+            var elementsWithDataScroll = document.querySelectorAll('[data-scroll]');
+
+            if (windowWidth < thresholdWidth) {
+                elementsWithDataScroll.forEach(function (element) {
+                    element.removeAttribute('data-scroll');
+                });
+            }
+        }
+
+
+
+        // Call the function initially to set the attribute based on the initial window width
+
+        removeDataScrollIfNecessary();
+
+
+
+        // Add an event listener to handle window resize
+
+        window.addEventListener('resize', removeDataScrollIfNecessary);
+
+    </script>
+
+    <!-- for popup form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#contactModal', function (event) {
+
+                console.log("Form query runing");
+
+                document.querySelector('#bi-Btn').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form').reset();
+
+                                    document.getElementById('bi-thankYouMessage').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage').style.display = 'none';
+
+                                    }, 5000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form').reset();
+
+                                    document.getElementById('bi-thankYouMessage').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+
+                                    }, 5000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $199 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-199-Modal', function (event) {
+
+                console.log("Form query runing 199");
+
+                document.querySelector('#bi-Btn-199').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-199').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-199').reset();
+
+                                    document.getElementById('bi-thankYouMessage-199').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-199').style.display = 'none';
+
+                                    }, 5000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-199').reset();
+
+                                    document.getElementById('bi-thankYouMessage-199').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-199').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 5000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $299 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-299-Modal', function (event) {
+
+                console.log("Form query runing 299");
+
+                document.querySelector('#bi-Btn-299').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-299').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-299').reset();
+
+                                    document.getElementById('bi-thankYouMessage-299').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-299').style.display = 'none';
+
+                                    }, 5000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-299').reset();
+
+                                    document.getElementById('bi-thankYouMessage-299').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-299').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 5000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $399 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-399-Modal', function (event) {
+
+                console.log("Form query runing 399");
+
+                document.querySelector('#bi-Btn-399').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-399').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-399').reset();
+
+                                    document.getElementById('bi-thankYouMessage-399').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-399').style.display = 'none';
+
+                                    }, 5000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-399').reset();
+
+                                    document.getElementById('bi-thankYouMessage-399').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-399').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 5000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+    <!-- for $499 form -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            jQuery(document).on('show.bs.modal', '#pack-499-Modal', function (event) {
+
+                console.log("Form query runing 499");
+
+                document.querySelector('#bi-Btn-499').addEventListener('click', function (event) {
+
+                    document.getElementById('bi-Form-499').addEventListener('submit', function (event) {
+
+                        event.preventDefault(); // Prevent form from submitting traditionally
+
+
+
+                        let formData = new FormData(this);
+
+
+
+                        fetch('send_email.php', {
+
+                            method: 'POST',
+
+                            body: formData
+
+                        })
+
+                            .then(response => response.text())
+
+                            .then(data => {
+
+                                if (data === 'success') {
+
+                                    document.getElementById('bi-Form-499').reset();
+
+                                    document.getElementById('bi-thankYouMessage-499').style.display = 'block';
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-499').style.display = 'none';
+
+                                    }, 5000);
+
+                                } else {
+
+                                    // alert('Something went wrong, please try again!');
+
+                                    document.getElementById('bi-Form-499').reset();
+
+                                    document.getElementById('bi-thankYouMessage-499').style.display = 'block';
+
+
+
+                                    // Hide the thank you message after 3 seconds
+
+                                    setTimeout(function () {
+
+                                        document.getElementById('bi-thankYouMessage-499').style.display = 'none';
+                                        window.location.href = 'https://marketairre.org/thankyou.html';
+                                    }, 5000);
+
+                                }
+
+                            })
+
+                            .catch(error => {
+
+                                console.error('Error:', error);
+
+                                alert('Error sending email!');
+
+                            });
+
+                    });
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
