@@ -542,7 +542,7 @@ p.package-content.no-top-padding{
     width:10px;
     height:10px;
     margin:auto;
-    background: linear-gradient(90deg, rgba(243, 57, 94, 1) 0%, rgba(148, 49, 182, 1) 100%);
+    background: #fff;
     border-radius:50%;
     transition: .4s;
 }
@@ -565,6 +565,8 @@ p.package-content.no-top-padding{
     animation: unset;
     transition: .4s;
     cursor: pointer;
+    background: #fff !important;
+    color: #000 !important;
 }
 .package-item:hover .package-detail{
     color: #fff;
@@ -851,6 +853,19 @@ button.btn-close {
 }
 .package-item {
     height: 805px;
+    color: #fff;
+}
+.package-item.package-one{
+    background: url('../img/pkg-1.png') no-repeat center;
+    background-size: cover;
+}
+.package-item.package-two{
+    background: url('../img/pkg-2.png') no-repeat center;
+    background-size: cover;
+}
+.package-item.package-three{
+    background: url('../img/pkg-3.png') no-repeat center;
+    background-size: cover;
 }
 .package-include p:before {
     top: 2px;
