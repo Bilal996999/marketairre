@@ -26,10 +26,10 @@
         height: 780px;
     }
     .section-overlay.left {
-        opacity: .6;
+        opacity: .15;
     }
     .section-overlay.right {
-        opacity: .6;
+        opacity: .15;
     }
 }
 
