@@ -124,7 +124,7 @@
     }
     
     .hero-content-wrapper h1 {
-        font-size: 44px;
+        font-size: 52px;
         line-height: 1.2em;
     }
     
@@ -217,8 +217,11 @@
         height: fit-content !important;
     }
     .hero-content-wrapper h1 {
-        font-size: 38px;
+        font-size: 48px;
         line-height: 1em;
+    }
+    .hero-content-wrapper{
+        padding-right: 0;
     }
     .hero-content-wrapper small {
         font-size: 18px;
@@ -259,10 +262,10 @@
         font-size: 16px;
         padding-right: 20px;
     }
-    .business-wrapper img {
+    /* .business-wrapper img {
         width: 65px;
         height: 65px;
-    }
+    } */
     .business-wrapper h3 {
         font-size: 20px;
     }
@@ -749,11 +752,11 @@
     .bi-business-owners .row .col-12 {
         max-width: 80%;
     }
-    .business-wrapper img {
+    /* .business-wrapper img {
         width: 55px;
         height: 55px;
         margin-bottom: 16px;
-    }
+    } */
     .business-wrapper p {
         font-size: 14px;
     }
@@ -802,5 +805,19 @@
     .bi-header .bi-btn {
         font-size: 12px;
         padding: 10px 20px;
+    }
+    .business-img {
+        width: 50px;
+        height: 50px;
+        padding: 5px 8px 3px;
+    }
+    .business-img.three {
+        width: 50px;
+        height: 50px;
+        padding: 10px 8px 11px;
+    }
+    .business-img.three img {
+        width: 100%;
+        height: 100%;
     }
 }
