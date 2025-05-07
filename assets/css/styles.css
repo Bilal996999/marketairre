@@ -1065,7 +1065,7 @@ p.line-height::before {
     padding: 20px 0 10px;
     border-radius: 10px;
     font-weight: 400;
-    background: linear-gradient(90deg, rgba(243, 57, 94, 1) 0%, rgba(148, 49, 182, 1) 100%);
+    background: linear-gradient(145deg, rgba(243, 57, 94, 1) 0%, rgba(148, 49, 182, 1) 100%);
     color: #fff;
 }
 #countdown ul li span{
