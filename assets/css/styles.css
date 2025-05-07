@@ -143,20 +143,21 @@ input{
 }
 .hero-content-wrapper{
     font-family: "Nunito", sans-serif;
-    padding-right: 60px;
+    padding-right: 25px;
 }
 .hero-content-wrapper small{
     display: block;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 .hero-content-wrapper h1{
-    font-size: 60px;
+    font-size: 68px;
     font-family: "Inter", sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
+    line-height: 1em;
 }
 .hero-content-wrapper h1 .gradient-heading{
     font-weight: 900;
@@ -294,7 +295,7 @@ input{
     padding-top: 20px;
 }
 .bi-expertise{
-    padding: 120px 0;
+    padding: 80px 0 100px;
     background-color: #F4F4F4;
     position: relative;
 }
@@ -316,6 +317,9 @@ input{
 .expertise-content p {
     font-size: 18px;
 }
+.business-img.six {
+    padding: 13px 14px 17px;
+}
 .bi-expertise .bi-btn {
     margin-inline: auto;
     display: block;
@@ -324,17 +328,22 @@ input{
 }
 .bi-risk{
     background-color: #F4F4F4;
-    padding: 60px 0 0;
+    padding: 60px 0;
 }
 .risk-content h4 {
-    font-size: 26px;
+    font-size: 41px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 .risk-content p {
-    font-size: 20px;
-    max-width: 465px;
+    font-size: 28px;
+    /* max-width: 465px; */
     font-weight: 500;
+}
+.bi-risk img {
+    position: absolute;
+    bottom: -60px;
+    max-width: 630px;
 }
 .risk-content h3 {
     font-size: 30px;
@@ -472,7 +481,7 @@ form.unlock-form button {
     box-shadow: 0 10px 30px transparent;
 }
 .package-item:hover {
-    translate: 0 30px;
+    /* translate: 0 30px; */
     box-shadow: 0 10px 30px hsl(0, 0%, 0%, .4);
 }
 .package-item:before {
@@ -1025,4 +1034,47 @@ p.line-height::before {
     content: unset !important;
     background: unset !important;
     translate: unset !important;
+}
+.countdown-day{
+    display: none !important;
+}
+#countdown ul {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+#countdown {
+    max-width: 260px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+#countdown ul li {
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1em;
+    gap: 15px;
+    width: 70px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(243, 57, 94, 1) 0%, rgba(148, 49, 182, 1) 100%);
+    color: #fff;
+}
+#countdown ul li span{
+    font-size: 40px;
+    font-weight: 800;
+}
+#countdown .theme-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 15px;
 }

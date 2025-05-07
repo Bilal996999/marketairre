@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel='shortcut icon' href='./assets/img/favicon.webp' type='image/x-icon'>
     <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -163,19 +163,27 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6 col-sm-12 col-12">
                     <div class="hero-content-wrapper">
+                        <div id="countdown">
+                            <h4 class="theme-heading">Limited Time Offer</h4>
+                            <ul>
+                                <li class="countdown-day"><span id="days"></span>days</li>
+                                <li><span id="hours"></span> Hrs</li>:
+                                <li><span id="minutes"></span> Mins</li>:
+                                <li><span id="seconds"></span> Sec</li>
+                            </ul>
+                        </div>
                         <small>Struggling to manage your social media?</small>
-                        <h1>
-                            Transform Your
+                        <h1>  
+                            Elevate Your
                             <span class="gradient-heading">
                                 Social Media 
                             </span>
-                            Presence Today!
+                            Game Instantly
                         </h1>
                         <p class="theme-para">
-                            With professional <b>social media management</b> from our experienced and dedicated
-                            <b>social media
-                                managers</b>, we'll boost your engagement, grow your brand, and take the stress off your
-                            hands.
+                            With dedicated and skilled <b>Social Media Managers</b> by your side, you'll see stronger
+                            engagement, a more consistent brand presence, & the freedom to focus on your core
+                            business, while we take care of the rest.
                         </p>
                         <div class="hero-btn-wrapper">
                             <a href="#" class="bi-btn white">Chat With Us</a>
@@ -217,7 +225,7 @@
                 <h2 class="theme-heading">
                     Challenges
                     <span class="gradient-heading">Business Owners <br>Face</span>
-                    with Social Media
+                    in Managing Social Media
                 </h2>
             </div>
             <div class="row justify-content-center align-items-center">
@@ -299,7 +307,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="business-wrapper">
-                        <div class="business-img">
+                        <div class="business-img six">
                             <img src="./assets/img/business-6.png" class="img-fluid" loading="lazy" />
                         </div>
                         <h3>
@@ -396,7 +404,8 @@
                     <img src="./assets/img/expertise-img.png" class="img-fluid" loading="lazy" />
                 </div>
             </div>
-            <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="bi-btn mx-auto">Get In Touch With Us!</a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="bi-btn mx-auto">Get In Touch With
+                Us!</a>
         </div>
     </section>
 
@@ -838,16 +847,16 @@
     <section class="bi-risk">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-12 col-12">
+                <div class="col-lg-7 col-md-12 col-12">
                     <div class="risk-content">
                         <h4>
                             Already working with another agency?
                         </h4>
                         <p>
-                            We'll offer you upto $50/$100 Ad credit when you switch to us.
+                            We'll offer you upto <b>$50/$100</b> Ad credit <br>when you switch to us.
                         </p>
-                        <h3>
-                            Experience the difference
+                        <h3 class="gradient-heading">
+                            Experience the difference.
                         </h3>
                         <h2>
                             RISK-FREE!
@@ -855,7 +864,7 @@
                         <a href="#" class="bi-btn">Claim Your Credit</a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-12">
+                <div class="col-lg-5 col-md-12 col-12">
                     <img src="./assets/img/risk-free.png" class="img-fluid" loading="lazy" />
                 </div>
             </div>
@@ -915,7 +924,7 @@
                             Dedicated Support
                         </h3>
                         <p>
-                            We're with you every step of the way, providing 
+                            We're with you every step of the way, providing
                             personalized support and strategies tailored
                             to your unique needs.
                         </p>
@@ -931,7 +940,8 @@
             <div class="top-content text-center">
                 <h2 class="theme-heading">
                     Build <span class="gradient-heading">Social Media Presence</span>
-                    <p class="theme-para">Establish an Impressive Social Media Presence in Just One Month, Just Like Our Current Clients!</p>
+                    <p class="theme-para">Establish an Impressive Social Media Presence in Just One Month, Just Like Our
+                        Current Clients!</p>
                 </h2>
             </div>
             <div class="portfolio-wrapper">
@@ -1001,7 +1011,7 @@
                         <form class="unlock-form">
                             <div class="d-flex">
                                 <input type="email" placeholder="Email" name="email" />
-                                <button class="bi-btn">DOWNLOAD NOW</button>
+                                <button class="bi-btn">DOWNLOAD</button>
                             </div>
                         </form>
                     </div>
@@ -1020,93 +1030,120 @@
 
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        How do you create a content strategy for my business?
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        We manage all major social media platforms, including Facebook, Instagram, Twitter, LinkedIn, TikTok, and Pinterest. Our services are tailored to fit the unique needs and goals of each platform.
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How do you create a content strategy for my business?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We manage all major social media platforms, including Facebook, Instagram, Twitter,
+                            LinkedIn, TikTok, and Pinterest. Our services are tailored to fit the unique needs and goals
+                            of each platform.
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What is included in your social media management service?
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Our social media management service includes content creation, scheduling, posting, community management, performance tracking, and regular reporting. We ensure your social media presence is active, engaging, and aligned with your brand.
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is included in your social media management service?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our social media management service includes content creation, scheduling, posting,
+                            community management, performance tracking, and regular reporting. We ensure your social
+                            media presence is active, engaging, and aligned with your brand.
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Can you help with social media advertising?
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Yes, we specialize in creating and managing targeted social media advertising campaigns across platforms like Facebook, Instagram, LinkedIn, and more. Our goal is to maximize your ROI by reaching the right audience with compelling ads.
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can you help with social media advertising?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, we specialize in creating and managing targeted social media advertising campaigns
+                            across platforms like Facebook, Instagram, LinkedIn, and more. Our goal is to maximize your
+                            ROI by reaching the right audience with compelling ads.
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        How do you measure the success of social media campaigns?
-                      </button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How do you measure the success of social media campaigns?
+                        </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        We use various metrics such as engagement rates, follower growth, website traffic, and conversion rates to measure the success of your social media campaigns. Detailed reports are provided regularly to keep you informed about your campaign’s performance.
-                      </div>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We use various metrics such as engagement rates, follower growth, website traffic, and
+                            conversion rates to measure the success of your social media campaigns. Detailed reports are
+                            provided regularly to keep you informed about your campaign’s performance.
+                        </div>
                     </div>
-                  </div>
-                  
-                  <div class="accordion-item">
+                </div>
+
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        What is your process for community management?
-                      </button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            What is your process for community management?
+                        </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        Our community management process involves actively monitoring your social media channels, responding to comments and messages, and engaging with your audience. We ensure that your brand maintains a positive and active presence online.
-                      </div>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our community management process involves actively monitoring your social media channels,
+                            responding to comments and messages, and engaging with your audience. We ensure that your
+                            brand maintains a positive and active presence online.
+                        </div>
                     </div>
-                  </div>
-                  
-                  <div class="accordion-item">
+                </div>
+
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSix">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        How often will you post content on my social media accounts?
-                      </button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            How often will you post content on my social media accounts?
+                        </button>
                     </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        The frequency of posting depends on your specific needs and the platform. Typically, we post content multiple times a week to ensure consistent engagement and visibility.
-                      </div>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The frequency of posting depends on your specific needs and the platform. Typically, we post
+                            content multiple times a week to ensure consistent engagement and visibility.
+                        </div>
                     </div>
-                  </div>
-                  
-                  <div class="accordion-item">
+                </div>
+
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSeven">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        Can you help with content creation, such as graphics and videos?
-                      </button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Can you help with content creation, such as graphics and videos?
+                        </button>
                     </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        Yes, we offer comprehensive content creation services, including graphics, videos, and written content. Our team works to produce high-quality, engaging content that reflects your brand’s voice and objectives.
-                      </div>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, we offer comprehensive content creation services, including graphics, videos, and
+                            written content. Our team works to produce high-quality, engaging content that reflects your
+                            brand’s voice and objectives.
+                        </div>
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1320,7 +1357,7 @@
         </div>
     </footer>
 
-   
+
 
     <!-- Modal -->
 
@@ -1886,7 +1923,7 @@
 
     <div class="back-to-top" id="back-to-top">
         <a href="#home" data-scroll-to><img src="./assets/img/left-arrow.webp" class="img-fluid" loading="lazy" /></a>
-     </div>
+    </div>
 
     <div class="bi-alertbox">
 
@@ -1920,6 +1957,7 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/locomotive-scroll.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
+    <script src="https://pbutcher.uk/flipdown/js/flipdown/flipdown.js"></script>
     <script src="./assets/js/custom.js"></script>
 
     <script>

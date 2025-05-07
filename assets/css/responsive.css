@@ -26,10 +26,10 @@
         height: 780px;
     }
     .section-overlay.left {
-        opacity: .15;
+        opacity: 0;
     }
     .section-overlay.right {
-        opacity: .15;
+        opacity: 0;
     }
 }
 
@@ -141,10 +141,10 @@
         padding: 14px 40px;
     }
     .section-overlay.left {
-        opacity: .6;
+        opacity: 0;
     }
     .section-overlay.right {
-        opacity: .6;
+        opacity: 0;
     }
     .risk-content h2 {
         font-size: 70px;
@@ -640,12 +640,12 @@
     .hero-content-wrapper {
         margin-top: 20px;
     }
-    .section-overlay.left {
+    /* .section-overlay.left {
         opacity: .2;
     }
     .section-overlay.right {
         opacity: .2;
-    }
+    } */
     .hero-content-wrapper h1 {
         font-size: 28px;
     }
