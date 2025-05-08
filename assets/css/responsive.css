@@ -164,6 +164,9 @@
     .porfolio-item {
         max-width: 33%;
     }
+    .include-item h4 {
+        font-size: 20px;
+    }
 }
 @media(max-width: 1199px){
     .bi-btn {
@@ -300,9 +303,11 @@
     .unlock-content .theme-heading {
         font-size: 30px;
     }
-    
     form.unlock-form button {
         font-size: 14px;
+    }
+    .include-item {
+        width: 48%;
     }
 }
 
@@ -445,6 +450,9 @@
         width: fit-content;
         font-size: 14px;
     }
+    .include-item h4 {
+        font-size: 19px;
+    }
 }
 
 @media(max-width: 768px){
@@ -584,6 +592,12 @@
     .bi-unlock {
         text-align: center;
     }
+    .include-item h4 {
+        font-size: 17px;
+    }
+    .include-item img {
+        max-width: 23px;
+    }
 }
 
 @media(max-width: 650px){
@@ -599,6 +613,12 @@
     }
     .bi-unlock img{
         height: 300px;
+    }
+    .include-item{
+        width: 100%;
+    }
+    .include-item h4 {
+        font-size: 16px;
     }
 }
 @media(max-width: 575px){
@@ -672,6 +692,9 @@
     }
     .bi-unlock img{
         height: 260px;
+    }
+    .include-item h4 {
+        font-size: 14px;
     }
 }
 @media(max-width: 440px){
