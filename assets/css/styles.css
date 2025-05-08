@@ -1097,3 +1097,6 @@ p.line-height::before {
 .include-item h4 {
     margin-bottom: 0;
 }
+.bi-unlock img {
+    width: 100%;
+}
